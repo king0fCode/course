@@ -1,0 +1,289 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Raleway Thin'), local('Raleway-Thin'), url(../fonts/1Ptsg8zYS_SKggPNwE44Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Raleway Thin'), local('Raleway-Thin'), url(../fonts/1Ptsg8zYS_SKggPNwE44TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+.top-banner {
+    background-color: #050505;
+    text-align: center !important;
+}
+#top-banner-img {
+  height:200px !important;
+}
+
+.content {
+    margin: 0 5%;
+    margin-top: 25%;
+}
+.banner {
+    margin: 30% 33% 1% 33%;
+}
+.banner-secondary {
+  text-align: center;
+}
+
+.banner-secondary > a > img{
+  text-align: center;
+  height: auto !important;
+  width: 250px !important;
+}
+
+#img-right {
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+#img-left {
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+footer {
+  background-color: black !important;
+  font-family: 'Vollkorn', serif !important;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1000 !important;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .home-merch-section,
+  .home-music-section,
+  .home-news-section   {
+    z-index: 1 !important;
+    margin: 10% 0;
+   
+  }
+
+  .home-merch-section > a > img {
+    height: 103px !important;
+  }
+a img {
+  -webkit-border-radius: 7px !important;
+border-radius: 7px !important;
+}
+
+  .social-icons {
+    margin: 5% 0 3% 0;
+    padding: 3%;
+    text-align: center !important;
+    background-color:#410a47d9;
+    display: block;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    padding:10px 50px 70px 50;
+    font-family:'Raleway'
+  }
+
+
+  .bunny-tags {
+    margin-top: 15px !important;
+  }
+
+ a, a:link, a:visited {
+    text-decoration: none;
+color: hotpink !important;
+}
+
+body {
+color:white!important;
+  z-index: -1;  
+  font-family: 'Raleway';
+  background-image: url('../img/background-2.jpg');
+}
+
+.content {
+  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+}
+
+h2 {
+  font-family: Arial, Verdana;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #091f2f;
+  text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  color: #1f7de2;
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}
+
+.faq-content {
+  margin: -5% 3% 3% 3%;
+  background: #d598d0f2;
+  padding: 3% 3%;
+  -webkit--moz-position: relative;
+}
+
+
+.contact-content {
+  margin: -5% 3% 3% 3%;
+  background: #d598d0f2;
+  padding: 3% 3%;
+  -webkit--moz-position: relative;
+}
+
+.news-content {
+  margin: -5% 3% 3% 3%;
+  background: #d598d0f2;
+  padding: 3% 3%;
+    position: relative;
+}
+
+.music-content {
+  margin: -5% 3% 3% 3%;
+  background: #d598d0f2;
+  padding: 3% 3%;
+    position: relative;
+}
+
+.merch-content {
+  margin: -5% 3% 3% 3%;
+  background: #d598d0f2;
+  padding: 3% 3%;
+    position: relative;
+}
+
+.music-gallery {
+  position: relative !important;
+  background-color: rgb(58, 58, 58);
+  margin: 5%;
+  padding: 5%;
+  -webkit--moz-
+}
+.musics-col {
+  position: relative !important;
+}
+
+.music-section {
+ 
+  background-color: rgb(36, 35, 35) !important;
+  padding: 5% 0 !important;
+  margin: -5% 5% 5% 5% !important;
+  align-content: center;
+  align-items: center;
+  z-index: -55 !important;
+
+}
+
+.music-galllery-title {
+  color: white;
+  font: size 17 !important;
+  font-family: 'Raleway';
+}
+
+
+
+.banner-secondary-custom {
+  text-align: center;
+  margin-top:15%;
+}
+
+.banner-secondary-custom > a > img{
+  text-align: center;
+  height: auto !important;
+  width: 250px !important;
+}
+
+.btn-green:hover {
+  background-color:green !important;
+  color:white !important;
+}
+
+.white, .white > a {
+  color:#fefbfd !important
+}
+
+.collapse, .show {
+  color:white !important
+}
+
+.footer-menu > a{
+padding: 0 5%
+
+}
+
+.card {
+  background-color: #252525 !important;
+}
+
+.menu-home {
+  background-color: black !important;
+  background-blend-mode: saturation !important;
+}
